@@ -10,7 +10,8 @@ We have simply divided the papers into the following categories for easy selecti
 
 
 - Cloud Programming Simplified: A Berkeley View on Serverless Computing
-[本文](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)是Berkeley于2019年发表的一篇论文。论文首先简要回顾了云计算的历史，包括 2009 年伯克利云计算观点论文的预测，然后解释了无服务器计算的动机，描述了一些挑战当前无服务器计算的应用，最后列出了无服务器计算实现其全部潜力的必要障碍和研究机会。正如 2009 年的论文指出了云计算的挑战并预测它们将被解决，云应用将加速，我们预测这些问题是可以解决的，无服务器计算将增长到主导未来云计算的发展。
+
+  [本文](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)是Berkeley于2019年发表的一篇论文。论文首先简要回顾了云计算的历史，包括 2009 年伯克利云计算观点论文的预测，然后解释了无服务器计算的动机，描述了一些挑战当前无服务器计算的应用，最后列出了无服务器计算实现其全部潜力的必要障碍和研究机会。正如 2009 年的论文指出了云计算的挑战并预测它们将被解决，云应用将加速，我们预测这些问题是可以解决的，无服务器计算将增长到主导未来云计算的发展。
   
 
 
