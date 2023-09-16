@@ -15,8 +15,15 @@ We have simply divided the papers into the following categories for easy selecti
   
   论文首先简要回顾了云计算的历史，包括 2009 年伯克利云计算观点论文的预测，然后解释了无服务器计算的动机，描述了一些挑战当前无服务器计算的应用，最后列出了无服务器计算实现其全部潜力的必要障碍和研究机会。正如 2009 年的论文指出了云计算的挑战并预测它们将被解决，云应用将加速，我们预测这些问题是可以解决的，无服务器计算将增长到主导未来云计算的发展。
   
-
-
+- **Serverless Computing: State-of-the-Art, Challenges and Opportunities**
+  
+  > IEEE Transactions on Services Computing（2022）
+  
+  > Research Institue:Cloud Center | Center for Cloud Computing | Center for Cloud Computing Research | Faculty of Science and Technology
+  
+  [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9756233)
+  **摘要**：无服务器计算正因其轻量级和简单的管理而越来越受欢迎。它通过将计算单元的粒度降低到函数级别来实现这些优点。具体来说，无服务器计算允许用户专注于函数本身，而将其他繁琐的管理和调度问题留给平台提供商，后者负责在高性能调度和低资源成本之间取得平衡。在本文中，我们对无服务器计算进行了全面的调查，特别关注其基础架构特性。通过这种方式，我们确定了一些现有挑战，并分析了相关的尖端解决方案。利用这些结果，我们进一步研究了一些典型的开源框架，并研究了它们如何解决确定的挑战。鉴于无服务器计算的巨大优势，预计其部署将主导未来的云平台。因此，我们还看到了一些有待未来进一步探索的有前景的研究机会。我们希望本文的工作能够激发那些从事相关领域的研究人员和实践者，让他们认识到无服务器计算的重要性，从而涉足这个有前景的领域，为它的发展做出巨大贡献。
+  
 ## Analytic（分析型）
 分析型论文主要由分析构成，可以是分析数据，或者分析模型等等。
 
