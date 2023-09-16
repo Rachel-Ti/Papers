@@ -9,15 +9,24 @@ We have simply divided the papers into the following categories for easy selecti
 综述型论文是对某一专题、某一领域的历史背景、前人工作、争论焦点、研究现状与发展前景等方面，以作者自己的观点写成的严谨而系统的评论性、资料性的论文。会引用某个领域50～100篇（甚至更多）文献参考资料，来辨明其中的关系、矛盾、差距及不一致性，并建议解决问题的后续步骤。该类型论文不要求作者对其研究发现进行阐述，因此这类论文一般在项目初期通过大量的文献资料研究进行撰写。
 
 
-- Cloud Programming Simplified: A Berkeley View on Serverless Computing
-
-  [本文](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)是Berkeley于2019年发表的一篇论文。论文首先简要回顾了云计算的历史，包括 2009 年伯克利云计算观点论文的预测，然后解释了无服务器计算的动机，描述了一些挑战当前无服务器计算的应用，最后列出了无服务器计算实现其全部潜力的必要障碍和研究机会。正如 2009 年的论文指出了云计算的挑战并预测它们将被解决，云应用将加速，我们预测这些问题是可以解决的，无服务器计算将增长到主导未来云计算的发展。
+- **Cloud Programming Simplified: A Berkeley View on Serverless Computing**
+  
+  > [本文](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)是Berkeley于2019年发表在 _Journal Computing Research Repository (CoRR)_ 上的一篇文章。
+  
+  论文首先简要回顾了云计算的历史，包括 2009 年伯克利云计算观点论文的预测，然后解释了无服务器计算的动机，描述了一些挑战当前无服务器计算的应用，最后列出了无服务器计算实现其全部潜力的必要障碍和研究机会。正如 2009 年的论文指出了云计算的挑战并预测它们将被解决，云应用将加速，我们预测这些问题是可以解决的，无服务器计算将增长到主导未来云计算的发展。
   
 
 
 ## Analytic（分析型）
 分析型论文主要由分析构成，可以是分析数据，或者分析模型等等。
-Let's Trace It: Fine-Grained Serverless Benchmarking using Synchronous and Asynchronous Orchestrated Applications
+
+- **Let's Trace It: Fine-Grained Serverless Benchmarking using Synchronous and Asynchronous Orchestrated Applications**
+  
+  > [本文](https://arxiv.org/pdf/2205.07696.pdf)是存储在 _arXiv_ · Distributed, Parallel, and Cluster Computing（2022）上的一篇文章。
+  
+  **摘要**：要使无服务器计算广泛适用，需要详细了解性能。尽管现有的基准测试方法存在，但它们仅报告粗略的结果，不使用分布式跟踪，不考虑异步应用程序，并且对（根本原因）分析的能力有限。为解决这个差距，我们设计并实现了 ServiBench，一个无服务器基准测试套件。我们对 AWS 环境中的服务器端应用性能进行了全面的**白盒分析**。ServiBench (i) 利用同步和异步的无服务器应用程序，代表生产使用情况，(ii) 扩展云提供商数据以生成现实的负载，(iii) 进行全面的端到端实验，以捕获应用程序级别的性能，(iv) 使用基于（分布式）无服务器跟踪的新颖方法分析结果，(v) 支持全面的无服务器性能分析。通过 ServiBench，我们对 AWS 进行了全面的实验，涵盖了五个常见的性能因素：**中位数延迟、冷启动、尾延迟、可扩展性和动态工作负载**。我们发现，无服务器应用程序的中位数端到端延迟通常不是由函数计算而是由外部服务调用、编排或基于触发器的协调所主导。我们根据公平原则发布收集的实验数据，并将 ServiBench 作为一个经过测试的可扩展的**开源**工具发布。
+  
+- 
 
 ## Methods（方法型）
 方法型论文旨在展示一种新的实验方法、测试方法或者流程，对结果不做过多阐述。其架构和篇幅与研究型论文相似。尽管结果不是这类论文的核心部分，但大部分期刊仍会要求提供结果相关的数据样本。
